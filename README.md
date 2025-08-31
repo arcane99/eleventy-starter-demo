@@ -7,7 +7,7 @@ A minimal starter project to get up and running quickly with [Eleventy](https://
 Clone the repo and install dependencies:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/eleventy-starter-demo.git
+git clone https://github.com/arcane99/eleventy-starter-demo.git
 cd eleventy-starter-demo
 npm install
 ```
