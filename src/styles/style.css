@@ -1,0 +1,12 @@
+:root { --maxw: 48rem; --pad: 1rem; --bg: #0b0c10; --card: #121318; --text: #e5e7eb; --muted: #9aa0a6; }
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', 'Apple Color Emoji', 'Segoe UI Emoji'; }
+a { color: #93c5fd; text-decoration: none; }
+a:hover { text-decoration: underline; }
+.site-header, .site-footer { max-width: var(--maxw); margin: 0 auto; padding: var(--pad); display: flex; align-items: center; justify-content: space-between; }
+.site-title a { color: var(--text); }
+.site-nav a { margin-left: .75rem; color: var(--muted); }
+.content { max-width: var(--maxw); margin: 0 auto; padding: var(--pad); background: var(--card); border-radius: 1rem; }
+ul { padding-left: 1.25rem; }
+code, pre { background: #1f2937; color: #e5e7eb; padding: .2rem .4rem; border-radius: .25rem; }
+h1, h2, h3 { line-height: 1.2; }

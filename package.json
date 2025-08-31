@@ -1,0 +1,16 @@
+{
+  "name": "eleventy-starter-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bare-minimum Eleventy (11ty) starter with posts collection.",
+  "scripts": {
+    "dev": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
